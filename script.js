@@ -3,13 +3,12 @@
 let isNumber = function(n) {
     return !isNaN (parseFloat(n)) && isFinite(n);
 };
+let enteredNumber;
 
 function guessedNumber() {
     const guessedNumber = 33;
-
+return comparisonNumbers();
 }
-
-let enteredNumber;
 
 function start() {
     do {
